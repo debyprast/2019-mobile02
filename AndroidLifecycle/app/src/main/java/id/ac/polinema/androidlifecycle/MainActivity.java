@@ -12,8 +12,6 @@ public class MainActivity extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_simple);
-		nameInput = findViewById(R.id.input_name);
-		outputText = findViewById(R.id.text_output);
 	}
 
 	@Override
